@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
   <title>Srijit Banerjee</title>
   
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>" type="image/svg+xml" />
@@ -16,6 +17,7 @@
 </head>
 <body>
 
+  <!-- Floating Math & Science Symbols (Fixed visibility for Light Mode) -->
   <div class="bg-math-floating" aria-hidden="true">
     <span class="math-item m1">∫ f(x)dx</span>
     <span class="math-item m2">∑ (1/n²) = π²/6</span>
@@ -44,7 +46,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#socials">Socials</a></li>
       <li><a href="#cinema">Cinema</a></li>
-      <li><a href="#tv">TV Series</a></li>
+      <li><a href="#tv">Tier List</a></li>
       <li><a href="#gaming">Gaming</a></li>
       <li><a href="#duolingo">Duolingo</a></li>
       <li><a href="#credentials">Credentials</a></li>
@@ -53,6 +55,15 @@
   </nav>
 
   <header class="hero" id="about">
+    <!-- Dedicated Header Floating Symbols for crisp Light Mode contrast -->
+    <div class="hero-symbols" aria-hidden="true">
+      <span class="h-sym hs-1">π</span>
+      <span class="h-sym hs-2">∑</span>
+      <span class="h-sym hs-3">λ</span>
+      <span class="h-sym hs-4">Δx</span>
+      <span class="h-sym hs-5">Ω</span>
+      <span class="h-sym hs-6">∫</span>
+    </div>
     <div class="hero-glow-ring"></div>
     <div class="hero-container">
       <div class="hero-badge">
@@ -68,7 +79,7 @@
           <i class="fa-solid fa-id-card"></i> View FUT Manager Card
         </button>
         <a href="#cinema" class="btn secondary-btn">
-          <i class="fa-solid fa-film"></i> Cinema & Shows
+          <i class="fa-solid fa-film"></i> Cinema & Tier List
         </a>
       </div>
     </div>
@@ -110,6 +121,7 @@
     </div>
   </div>
 
+  <!-- Social Media Section (StarDance replaced with Letterboxd) -->
   <section class="section section-socials" id="socials">
     <h2 class="section-title"><i class="fa-solid fa-compass"></i> Digital Footprint</h2>
     <div class="social-grid">
@@ -130,11 +142,16 @@
         </div>
       </a>
 
-      <a href="https://stardance.hackclub.com/@iamsrijitbanerjee/" target="_blank" rel="noopener noreferrer" class="social-card stardance glow-ring-red">
-        <i class="fa-solid fa-user-astronaut"></i>
+      <!-- Letterboxd Widget -->
+      <a href="https://letterboxd.com/srijitbanerjee" target="_blank" rel="noopener noreferrer" class="social-card letterboxd glow-ring-orange">
+        <svg class="letterboxd-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="5.5" cy="12" r="4.2" fill="#ff8000"/>
+          <circle cx="12" cy="12" r="4.2" fill="#00e054"/>
+          <circle cx="18.5" cy="12" r="4.2" fill="#40bcf4"/>
+        </svg>
         <div class="social-info">
-          <h3>StarDance NASA</h3>
-          <p>Space Hub Devlog</p>
+          <h3>Letterboxd</h3>
+          <p>Film Diary & Lists</p>
         </div>
       </a>
 
@@ -144,7 +161,7 @@
         </svg>
         <div class="social-info">
           <h3>Duolingo</h3>
-          <p>600+ Day Streak</p>
+          <p>700+ Day Streak</p>
         </div>
       </a>
 
@@ -199,127 +216,208 @@
     </div>
   </section>
 
+  <!-- Favorite Movies Section (Top 15 Masterworks) -->
   <section class="section section-cinema" id="cinema">
-    <h2 class="section-title"><i class="fa-solid fa-film"></i> Favorite Movies (Ranked)</h2>
-    <p class="section-subtitle">Click posters to open their IMDb pages.</p>
+    <h2 class="section-title"><i class="fa-solid fa-film"></i> Top 15 Favorite Movies (Ranked)</h2>
+    <p class="section-subtitle">Click any poster to explore its official IMDb page.</p>
     
     <div class="media-rank-grid">
-      <a href="https://www.imdb.com/title/tt0468569/" target="_blank" rel="noopener noreferrer" class="media-card rank-1 top-three glow-ring-gold">
+      <!-- #1: The Apu Trilogy -->
+      <a href="https://www.imdb.com/title/tt0048473/" target="_blank" rel="noopener noreferrer" class="media-card rank-1 top-three glow-ring-gold">
         <div class="medal-badge medal-gold">🥇 #1</div>
         <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkcydkdQqkNuv4ZlOCxcVIl4DTg0hyCbw9PeWdmgX15A&s=10" alt="The Dark Knight Poster" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeifvyUhhX2yIssNBKTQ1OS6MOcUGcjdLgZLWcfmEAw&s=10" data-title="The Apu Trilogy" alt="Pather Panchali Trilogy Poster" />
         </div>
         <div class="media-details">
-          <h3>The Dark Knight</h3>
-          <span class="genre">Psychological Thriller / IMDb 9.0</span>
+          <h3>The Apu Trilogy</h3>
+          <span class="genre">Pather Panchali • Aparajito • Apur Sansar</span>
         </div>
       </a>
 
-      <a href="https://www.imdb.com/title/tt0118971/" target="_blank" rel="noopener noreferrer" class="media-card rank-2 top-three glow-ring-silver">
+      <!-- #2: The Lord of the Rings Trilogy -->
+      <a href="https://www.imdb.com/title/tt0120737/" target="_blank" rel="noopener noreferrer" class="media-card rank-2 top-three glow-ring-silver">
         <div class="medal-badge medal-silver">🥈 #2</div>
         <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOCJC0vd1D96DR3c24jabM3VuNyYQiDNRu9PnGd6FCw&s=10" alt="The Devil's Advocate Poster" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEU54th8IlGO8i9nYhU2vsOrICypf2JT8yh-7EbFHzMw&s=10" data-title="LOTR Trilogy" alt="LOTR Trilogy Poster" />
         </div>
         <div class="media-details">
-          <h3>The Devil's Advocate</h3>
-          <span class="genre">Mystery Thriller / IMDb 7.5</span>
+          <h3>The LOTR Trilogy</h3>
+          <span class="genre">Fellowship • Two Towers • Return of the King</span>
         </div>
       </a>
 
+      <!-- #3: The Godfather Duology -->
       <a href="https://www.imdb.com/title/tt0071562/" target="_blank" rel="noopener noreferrer" class="media-card rank-3 top-three glow-ring-bronze">
         <div class="medal-badge medal-bronze">🥉 #3</div>
         <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKFkeCM6syhstRusD3nT-M_95Xm6o8xYbSCnlj8xyPZw&s=10" alt="The Godfather Part II Poster" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKFkeCM6syhstRusD3nT-M_95Xm6o8xYbSCnlj8xyPZw&s=10" data-title="Godfather I & II" alt="The Godfather Duology Poster" />
         </div>
         <div class="media-details">
-          <h3>The Godfather Part II</h3>
-          <span class="genre">Crime Drama / IMDb 9.0</span>
+          <h3>The Godfather Duology</h3>
+          <span class="genre">Part I & Part II • Crime Masterpiece</span>
         </div>
       </a>
 
-      <a href="https://www.imdb.com/title/tt0268978/" target="_blank" rel="noopener noreferrer" class="media-card rank-4 glow-ring-blue">
+      <!-- #4: 3 Idiots -->
+      <a href="https://www.imdb.com/title/tt1187043/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-blue">
         <div class="medal-badge medal-standard">#4</div>
         <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWHrCgEgMCPFU4EMe-IJqnDh6avjalXzW80fA6RePaIQ&s=10" alt="A Beautiful Mind Poster" />
+          <img src="https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg" data-title="3 Idiots" alt="3 Idiots Poster" />
+        </div>
+        <div class="media-details">
+          <h3>3 Idiots</h3>
+          <span class="genre">Comedy / Engineering Drama</span>
+        </div>
+      </a>
+
+      <!-- #5: Parasite -->
+      <a href="https://www.imdb.com/title/tt6751668/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-green">
+        <div class="medal-badge medal-standard">#5</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyKPLB7gz8SyDqOhauvVaBLhrCgRJbIs9DSQR4LvmXA&s=10" data-title="Parasite" alt="Parasite Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Parasite</h3>
+          <span class="genre">Dark Thriller / Social Satire</span>
+        </div>
+      </a>
+
+      <!-- #6: 2001: A Space Odyssey -->
+      <a href="https://www.imdb.com/title/tt0062622/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-orange">
+        <div class="medal-badge medal-standard">#6</div>
+        <div class="media-cover">
+          <img src="https://compote.slate.com/images/6f4b6682-e93e-4e32-939b-6905252a6fbe.jpeg?width=1200&rect=1099x733&offset=1x0" data-title="2001: A Space Odyssey" alt="2001: A Space Odyssey Poster" />
+        </div>
+        <div class="media-details">
+          <h3>2001: A Space Odyssey</h3>
+          <span class="genre">Sci-Fi / Philosophical Epic</span>
+        </div>
+      </a>
+
+      <!-- #7: Manchester by the Sea -->
+      <a href="https://www.imdb.com/title/tt4034228/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-blue">
+        <div class="medal-badge medal-standard">#7</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ13JyamMtmIqMyUw9INLxGBsQZW2DJLJNU2AgHSkj5w&s=10" data-title="Manchester by the Sea" alt="Manchester by the Sea Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Manchester by the Sea</h3>
+          <span class="genre">Psychological Drama</span>
+        </div>
+      </a>
+
+      <!-- #8: The Shawshank Redemption -->
+      <a href="https://www.imdb.com/title/tt0111161/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-green">
+        <div class="medal-badge medal-standard">#8</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlCIh7XLA-yP2K11pURjPx4BD-04T2_7yin4wKL04EQ&s=10" data-title="The Shawshank Redemption" alt="The Shawshank Redemption Poster" />
+        </div>
+        <div class="media-details">
+          <h3>The Shawshank Redemption</h3>
+          <span class="genre">Drama</span>
+        </div>
+      </a>
+
+      <!-- #9: Schindler's List -->
+      <a href="https://www.imdb.com/title/tt0108052/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-red">
+        <div class="medal-badge medal-standard">#9</div>
+        <div class="media-cover">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg" data-title="Schindler's List" alt="Schindler's List Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Schindler's List</h3>
+          <span class="genre">Historical Drama</span>
+        </div>
+      </a>
+
+      <!-- #10: Devi -->
+      <a href="https://www.imdb.com/title/tt0053765/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-gold">
+        <div class="medal-badge medal-standard">#10</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQ1wADFx1nP1hgDJxTK7zq9hOz8hJXX5O4XD9iqTOSA&s=10" data-title="Devi (1960)" alt="Devi Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Devi</h3>
+          <span class="genre">Satyajit Ray Classic</span>
+        </div>
+      </a>
+
+      <!-- #11: Charulata -->
+      <a href="https://www.imdb.com/title/tt0057935/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-purple">
+        <div class="medal-badge medal-standard">#11</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGT5PUdb1gYt23Edfn2D1OcHFqFAIE9BMFcVFpBQXrFg&s=10" data-title="Charulata (1964)" alt="Charulata Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Charulata</h3>
+          <span class="genre">Literary Cinema / Drama</span>
+        </div>
+      </a>
+
+      <!-- #12: The Cloud-Capped Star -->
+      <a href="https://www.imdb.com/title/tt0054073/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-silver">
+        <div class="medal-badge medal-standard">#12</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSselxG30xC_fidzSIvITp8f0GQyZ_DyF4HkZdQzYD_nw&s=10" data-title="The Cloud-Capped Star" alt="The Cloud-Capped Star Poster" />
+        </div>
+        <div class="media-details">
+          <h3>The Cloud-Capped Star</h3>
+          <span class="genre">Meghe Dhaka Tara • Ritwik Ghatak</span>
+        </div>
+      </a>
+
+      <!-- #13: Requiem for a Dream -->
+      <a href="https://www.imdb.com/title/tt0180093/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-pink">
+        <div class="medal-badge medal-standard">#13</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVelgtdKtsS5fEAVZ6pwJmLUN6XVZBRo385HB76K-Y4Q&s=10" data-title="Requiem for a Dream" alt="Requiem for a Dream Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Requiem for a Dream</h3>
+          <span class="genre">Psychological Drama</span>
+        </div>
+      </a>
+
+      <!-- #14: Hamnet -->
+      <a href="https://www.imdb.com/title/tt14905854/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-green">
+        <div class="medal-badge medal-standard">#14</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrI48U4mgyggrbxGoYfKof4oPQdib5FhGXdvbI45NIA&s=10" data-title="Hamnet" alt="Hamnet Poster" />
+        </div>
+        <div class="media-details">
+          <h3>Hamnet</h3>
+          <span class="genre">Historical Drama / Adaptation</span>
+        </div>
+      </a>
+
+       <!-- #15: A Beautiful Mind -->
+      <a href="https://www.imdb.com/title/tt0212338/" target="_blank" rel="noopener noreferrer" class="media-card glow-ring-green">
+        <div class="medal-badge medal-standard">#15</div>
+        <div class="media-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApzLH6sXShjkGp0YSukmcvz3XTm_uElC7xf-Bt_SDyg&s=10" data-title="A Beautiful Mind" alt="A Beautiful Mind Poster" />
         </div>
         <div class="media-details">
           <h3>A Beautiful Mind</h3>
-          <span class="genre">Biographical Math / IMDb 8.2</span>
-        </div>
-      </a>
-
-      <a href="https://www.imdb.com/title/tt0137523/" target="_blank" rel="noopener noreferrer" class="media-card rank-5 glow-ring-purple">
-        <div class="medal-badge medal-standard">#5</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1PlCv4nWARsCBKWjCjMzMkBaQDbt7WHJOLqGit_L9A&s=10" alt="Inception Poster" />
-        </div>
-        <div class="media-details">
-          <h3>Fight Club</h3>
-          <span class="genre">Can't talk about it / IMDb 8.8</span>
+          <span class="genre">Biographical Drama</span>
         </div>
       </a>
     </div>
   </section>
 
+  <!-- Interactive Web-Series Tier List Section -->
   <section class="section section-tv" id="tv">
-    <h2 class="section-title"><i class="fa-solid fa-tv"></i> Favorite Web Series (Ranked in Order)</h2>
-    <p class="section-subtitle">Click posters to open their IMDb pages.</p>
-    
-    <div class="media-rank-grid">
-      <a href="https://www.imdb.com/title/tt1196946/" target="_blank" rel="noopener noreferrer" class="media-card rank-1 top-three glow-ring-gold">
-        <div class="medal-badge medal-gold">🥇 #1</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrgUrEfKCktZmw6RHKVPBWoXGbuiElBRM_DztxKzOJIA&s=10" alt="The Mentalist Poster" />
-        </div>
-        <div class="media-details">
-          <h3>The Mentalist</h3>
-          <span class="genre">Patrick Jane / IMDb 8.2</span>
-        </div>
-      </a>
+    <div class="tier-section-header">
+      <div>
+        <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Web-Series Tier List</h2>
+        <p class="section-subtitle">Click on any poster to reveal its exact rating! Tiers are organized from S (9–10) down to F (0–5).</p>
+      </div>
+      <button id="toggleAllRatingsBtn" class="btn secondary-btn">
+        <i class="fa-solid fa-star"></i> Reveal All Ratings
+      </button>
+    </div>
 
-      <a href="https://www.imdb.com/title/tt0773262/" target="_blank" rel="noopener noreferrer" class="media-card rank-2 top-three glow-ring-silver">
-        <div class="medal-badge medal-silver">🥈 #2</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAY3wXrZFwKCkndwmnlNZvLrkeSBdojOQ9uzp6W28bOQ&s" alt="Dexter Poster" />
-        </div>
-        <div class="media-details">
-          <h3>Dexter</h3>
-          <span class="genre">Crime Thriller / IMDb 8.7</span>
-        </div>
-      </a>
-
-      <a href="https://www.imdb.com/title/tt2442560/" target="_blank" rel="noopener noreferrer" class="media-card rank-3 top-three glow-ring-bronze">
-        <div class="medal-badge medal-bronze">🥉 #3</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6iplyJ1uqsrP5CbsP_WC9CDBJlzYldQ1v09Whx4gsg&s=10" alt="Peaky Blinders Poster" />
-        </div>
-        <div class="media-details">
-          <h3>Peaky Blinders</h3>
-          <span class="genre">Crime Strategy / IMDb 8.8</span>
-        </div>
-      </a>
-
-      <a href="https://www.imdb.com/title/tt3032476/" target="_blank" rel="noopener noreferrer" class="media-card rank-4 glow-ring-red">
-        <div class="medal-badge medal-standard">#4</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVdfHgmG_boeiGhIQEAzhsHVDHt_PUjk2sxrPepXkoA&s=10" alt="Better Call Saul Poster" />
-        </div>
-        <div class="media-details">
-          <h3>Better Call Saul</h3>
-          <span class="genre">Drama Masterpiece / IMDb 9.0</span>
-        </div>
-      </a>
-
-      <a href="https://www.imdb.com/title/tt1632701/" target="_blank" rel="noopener noreferrer" class="media-card rank-5 glow-ring-purple">
-        <div class="medal-badge medal-standard">#5</div>
-        <div class="media-cover">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8mvzO-V8spG95VJMxWevzCD30poo2W34gKWjdRiEUg&s=10" alt="Suits Poster" />
-        </div>
-        <div class="media-details">
-          <h3>Suits</h3>
-          <span class="genre">Legal Intellect / IMDb 8.4</span>
-        </div>
-      </a>
+    <div class="tier-board" id="tierBoard">
+      <!-- Populated dynamically via script.js for clean organization & click interaction -->
     </div>
   </section>
 
@@ -382,21 +480,21 @@
         <div class="duo-stat-card glow-ring-gold">
           <i class="fa-solid fa-fire duo-icon-fire"></i>
           <div>
-            <h3>600+ Days</h3>
+            <h3>700+ Days</h3>
             <p>Active Streak</p>
           </div>
         </div>
         <div class="duo-stat-card glow-ring-blue">
           <i class="fa-solid fa-bolt duo-icon-bolt"></i>
           <div>
-            <h3>150,000+ XP</h3>
+            <h3>200,000+ XP</h3>
             <p>Total Experience</p>
           </div>
         </div>
         <div class="duo-stat-card glow-ring-gold">
           <i class="fa-solid fa-trophy duo-icon-gold"></i>
           <div>
-            <h3>30+ Top Finishes</h3>
+            <h3>35+ Top Finishes</h3>
             <p>Podium Finishes</p>
           </div>
         </div>
@@ -414,6 +512,10 @@
           <div class="lang-label"><span>🇪🇸 Spanish</span><strong>Professional Proficiency</strong></div>
           <div class="progress-bg"><div class="progress-fill spanish-fill" style="width: 95%;"></div></div>
         </div>
+                <div class="lang-item">
+          <div class="lang-label"><span>🐉 High Valyrian</span><strong>Professional Proficiency</strong></div>
+          <div class="progress-bg"><div class="progress-fill valyrian-fill" style="width: 95%;"></div></div>
+        </div>
         <div class="lang-item">
           <div class="lang-label"><span>🇩🇪 German</span><strong>Intermediate Level</strong></div>
           <div class="progress-bg"><div class="progress-fill german-fill" style="width: 70%;"></div></div>
@@ -421,10 +523,6 @@
         <div class="lang-item">
           <div class="lang-label"><span>🇬🇷 Greek</span><strong>Intermediate Level</strong></div>
           <div class="progress-bg"><div class="progress-fill greek-fill" style="width: 65%;"></div></div>
-        </div>
-        <div class="lang-item">
-          <div class="lang-label"><span>🏛️ Latin</span><strong>Elementary Level</strong></div>
-          <div class="progress-bg"><div class="progress-fill latin-fill" style="width: 45%;"></div></div>
         </div>
       </div>
     </div>
@@ -436,7 +534,7 @@
       <div class="cred-card glow-ring-gold">
         <i class="fa-solid fa-shield-halved cred-icon"></i>
         <h3>National Level Contests </h3>
-        <p>National Runner Up in National Coding Challenge 2022 by CBSE. As team leader, built a  Smart Cap that aids the blind through every step</p>
+        <p>National Runner Up in National Coding Challenge 2022 by CBSE. As team leader, built a Smart Cap that aids the blind through every step</p>
         <span class="cred-tag"><i class="fa-solid fa-check"></i>Skill Outreach</span>
       </div>
       <div class="cred-card glow-ring-blue">
@@ -448,7 +546,7 @@
       <div class="cred-card glow-ring-green">
         <i class="fa-solid fa-vial cred-icon"></i>
         <h3>Multiple Personal Pursuits</h3>
-        <p>Learners' website (WAL):Huge impact. Quadcopter CC3D  Drone, World Cup Fantasy Team Tournament Site, and many more.</p>
+        <p>Learners' website (WAL):Huge impact. Quadcopter CC3D Drone, World Cup Fantasy Team Tournament Site, and many more.</p>
         <span class="cred-tag"><i class="fa-solid fa-check"></i>Always Exploring</span>
       </div>
       <div class="cred-card glow-ring-purple">
@@ -525,7 +623,7 @@
           <p class="chess-prompt" id="chessPrompt"><strong>White to Move:</strong> Mate in 2!</p>
           
           <div class="mini-chess-board" id="chessBoardContainer">
-            </div>
+          </div>
           
           <div id="chessSolution" class="chess-solution hidden"></div>
         </div>
