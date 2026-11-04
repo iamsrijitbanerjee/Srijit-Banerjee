@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
       shows: [
         { title: "Hostel Daze", rating: "6.6", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ592cCyKhpRXdctey7Wnh_en-W1A69ItpKZfrPccGaIA&s=10" },
         { title: "The Night Manager", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBkOLmXiTz1vysCoOGNpqytYU39Qm3v91W8qS2CM8z3A&s=10" },
-        { title: "Overflow", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEJ7FvWYsFkEEjWcd3usHUEJbBv_1Bc6zoiuY3HodRA&s=10" },
+        { title: "Playing With Fire", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-fY_bKrt7K1fK3ETZx3P-ZY6Km0OSzk6Cu1PZTpKoQg&s=10" },
         { title: "Dark Desire", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1KDsmdInhVFkb6NCj5vtvalvlmYHas0-1r3MXM4plQ&s" },
         { title: "Pretty Little Liars", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_A2pfyI3Tonr7mg0tAzyAfajAtuie6YeGQgI6-UjRuQ&s=10" }
       ]
@@ -196,11 +196,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- 3. Dynamic Typing Effect in Hero ---
   const typingElement = document.getElementById("typing-text");
   const phrases = [
-    "Computer Science Engineer 💻",
-    "STEM Olympiad Winner 🏆",
-    "Football & Badminton Tactics Buff ⚽",
-    "The Mentalist & Logic Enthusiast ☕",
-    "Polyglot-Language Learner 🌐"
+    "Curious Builder 💻",
+    "Couch Potato 🏆",
+    "Sports Enthusiast ⚽",
+    "Student ☕",
+    "Polyglot 🌐"
   ];
 
   let phraseIndex = 0;
