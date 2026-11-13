@@ -57,9 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Chernobyl", rating: "9.7", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMArk7TvDFoGe-W0idxFKtbGV2SqhW3jbI4NSKUbcH_Q&s=10" },
         { title: "Better Call Saul", rating: "9.6", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVdfHgmG_boeiGhIQEAzhsHVDHt_PUjk2sxrPepXkoA&s=10" },
         { title: "Breaking Bad", rating: "9.5", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10" },
-        { title: "A Knight of the Seven Kingdoms", rating: "9.2", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO0nscXcRIT3NxEqkn4XNufp2mto7VFthNRQPN3FA6yw&s=10" },
+        { title: "A Knight of the Seven Kingdoms", rating: "9.3", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO0nscXcRIT3NxEqkn4XNufp2mto7VFthNRQPN3FA6yw&s=10" },
+        { title: "Normal People", rating: "9.1", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-FUeEzO0KC6TlkpHFslK2jAfJA-mt65czQbGQmbrSg&s=10" },      
         { title: "House of the Dragon", rating: "9.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU7zTviCIqAggrFqcCawQN25NBdU20bWhjgGjt30WKnw&s=10" },
-        { title: "Normal People", rating: "9.1", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-FUeEzO0KC6TlkpHFslK2jAfJA-mt65czQbGQmbrSg&s=10" },
         { title: "Peaky Blinders", rating: "9.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6iplyJ1uqsrP5CbsP_WC9CDBJlzYldQ1v09Whx4gsg&s=10" }
       ]
     },
@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
       color: "#16a34a",
       shows: [
         { title: "Hostel Daze", rating: "6.6", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ592cCyKhpRXdctey7Wnh_en-W1A69ItpKZfrPccGaIA&s=10" },
+        { title: "The Sterling Point", rating: "6.9", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLbhQFvW_icPFRgBhsQ2Kzgr1ZGqRDkIOcmZer2AKitg&s=10" },
+        { title: "Off Campus", rating: "6.8", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkCLIylawCzTiQwneZw9cWCF2koY0ToaxCZ91ceR2Ng&s=10" },
         { title: "The Night Manager", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBkOLmXiTz1vysCoOGNpqytYU39Qm3v91W8qS2CM8z3A&s=10" },
         { title: "Playing With Fire", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-fY_bKrt7K1fK3ETZx3P-ZY6Km0OSzk6Cu1PZTpKoQg&s=10" },
         { title: "Dark Desire", rating: "6.0", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1KDsmdInhVFkb6NCj5vtvalvlmYHas0-1r3MXM4plQ&s" },
